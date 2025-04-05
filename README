@@ -1,0 +1,5 @@
+This repository is a collection of scripts I've written while learning Python.
+
+*Note to self* Commit messages only apply to specific file when recordable change is made to code. 
+i.e. Deleting empty bottom line in order to commit a change will record the message, but only for the repository description. 
+Deleting empty line within body of the code will record commit message to specific file. 
