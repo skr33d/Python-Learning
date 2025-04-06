@@ -1,0 +1,11 @@
+def converter():
+    x = float(input('Number ='))
+    units = input('Units =')
+
+    if units in ['km', 'kilometers']:
+        print(f"{x / 1.61:.2f} miles(mi)")
+    elif units in ['mi', 'miles']:
+        print(f"{x * 1.61:.2f} kilometers(km)")
+    else:
+        print('Not applicable')
+converter()
