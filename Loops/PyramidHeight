@@ -1,0 +1,10 @@
+blocks = int(input("Enter the number of blocks: "))
+
+height = 0
+layerblocks = 1
+
+while blocks >= layerblocks: 
+    blocks -= layerblocks
+    height += 1 
+    layerblocks += 1
+print("The height of the pyramid:", height)
