@@ -1,0 +1,23 @@
+Binary is a numbering system using 1s and 0s; with 2 as the base.                                                  0 = 000000
+Every computer operation is executed by evaluating binary. 0 = False, and 1 = True.                          -1 = 111111 000001 = 1
+Bits are binary digits.                                                                                      -2 = 111110 000010 = 2
+Think about counting in binary as right-to-left.                                                             -3 = 111101 000011 = 3
+LSB: “Least Significant Bit” the inner-most digit in binary. Use this as a guide for conversion.             -4 = 111100 000100 = 4
+The LSB of odd numbers is always 1. The LSB of even numbers is always 0.                                     -5 = 111011 000101 = 5
+Consider that the base of binary numbers is 2.                                                               -6 = 111010 000110 = 6
+Digits of binary numbers will always be a result of an operation based on 2, combined with its remainder.    -7 = 111001 000111 = 7
+The remainder after division by 2 of a decimal will always equate to the digit of its binary counterpart.    -8 = 111000 001000 = 8                               
+For instance, 13/2 = 6r1, 6/2 = 3r0, 3/2 = 1r1, 1/2 = 0r1                                                    -9 = 110111 001001 = 9
+Reading the remainders above in reverse order, we see: 1, 1, 0, 1; which is 13 in binary form.              -10 = 110110 001010 = 10
+"Leading Zeros" refer to the intrinsic zeros preceding a binary number.                                     -11 = 110101 001011 = 11
+"Placeholders" can refer to the zeros within the binary digits.                                             -12 = 110100 001100 = 12 
+Negative numbers in binary are represented with "Leading Ones" rather than "Leading Zeros".                 -13 = 110011 001101 = 13                                             
+Negative numbers in binary are the inverse of their positive counterpart.                                   -14 = 110010 001110 = 14
+The form of mathematics used for negatives in binary is referred to as "Two's Compliment"                   -15 = 110001 001111 = 15
+In "Two's Compliment" the digits are inversed.                                                              -16 = 110000 010000 = 16                                                 
+After inversion, a 1 is added, and carried right-to-left, until the first 0 is reached.                     -17 = 101111 010001 = 17
+A "byte" contains 8 bits.                                                                                   -18 = 101110 010010 = 18
+The ASCII standard originally used 7 bits for 128 characters.                                               -19 = 101101 010011 = 19
+An eighth bit was added to include special characters, registers, etc.                                      -20 = 101100 010100 = 20
+                                                                                                           
+                                                                                                         
