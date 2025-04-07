@@ -1,0 +1,23 @@
+Bitwise Operators: arguments must be integers. Can be compounded; 
+(x = x & y ) == (x &= y)
+& (Ampersand): Bitwise Conjunction; logical equivalent of “and” - requires exactly two arguments == result
+| (Bar): Bitwise Disjunction; logical equivalent of “or”  - requires at least one argument == result
+~ (Tilde): Bitwise Negation; logical equivalent of “not” - negative of value
+^ (Caret): Bitwise Exclusive(“xor” = “exclusive or”); logical equivalent of “else”- requires exactly one argument == result
+	example: 
+	i = 15 (01111)
+	j = 22 (10110)
+	i & j = 6 (00110) 
+        # The reason for this is because the shared bits equaling 1 evaluate to 1, or True
+        # If the shared bits equal 0, the same principle applies, they evaluate to 0, or False
+		example 2:
+		logical = not i 
+		bitwise = ~i
+        # Because i = 15, or 0b1111, ~i = -16; negative integers are represented in binary 
+        # with 1s in place of the intrinsic 0s. Therefore, …001111(15) = …110000(-16)
+
+Bit Mask: An instruction to check a single bit. 
+	example: 
+	x & 1 = x
+	x & 0 = x
+        # This ensures x is true or exists
