@@ -16,7 +16,7 @@ Bitwise Operators: arguments must be integers. Can be compounded;
         # Because i = 15, or 0b1111, ~i = -16; negative integers are represented in binary 
         # with 1s in place of the intrinsic 0s. Therefore, …001111(15) = …110000(-16)
 
-Bit Mask: An instruction to check a single bit. 
+Bit Mask: Instructions for selected bits. 
 	example: 
 	x & 1 = x
 	x & 0 = x
