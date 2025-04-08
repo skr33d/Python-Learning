@@ -1,7 +1,7 @@
 Order of Operations
 
 Highest Priority operators are unary; meaning they take one argument
- 1. ~ - +     Tilde is the bitwise form of negative, or logical negation. It inverts bits.
+ 1. ~ - +     Tilde is the bitwise equivalent of "not", negative, or logical negation. It inverts bits.
  2. **        Exponentation is right-associative, or has a right-sided binding. Meaning it operates from right to left.
  3. * / // %  Arithmetic operators are higher priority than logical.
  4. - +
