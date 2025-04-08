@@ -1,0 +1,14 @@
+Order of Operations
+
+Highest Priority operators are unary; meaning they take one argument
+ 1. ~ - +     Tilde is the bitwise form of negative, or logical negation. It inverts bits.
+ 2. **        Exponentation is right-associative, or has a right-sided binding. Meaning it operates from right to left.
+ 3. * / // %  Arithmetic operators are higher priority than logical.
+ 4. - +
+ 5. >> <<     Digraphs are bitwise equivalents of multiplication(<< shifts left) and floor division(>> shifts right)
+ 6. <= < > >= Logical operators are higher priority than compound.
+ 7. == != 
+ 8. &         Ampersand is bitwise equivalent of "and", or logical conjunction. 
+ 9. ^         Caret is bitwise XOR. "Exclusive or" 
+10. |         Bar is bitwise equivalent of "or", or logical disjunction.
+11. = += -= *= /= %= &= ^= |= >>= <<=
