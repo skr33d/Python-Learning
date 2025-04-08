@@ -3,7 +3,7 @@ Bitwise Operators: arguments must be integers. Can be compounded;
 & (Ampersand): Bitwise Conjunction; logical equivalent of “and” - requires exactly two arguments == result
 | (Bar): Bitwise Disjunction; logical equivalent of “or”  - requires at least one argument == result
 ~ (Tilde): Bitwise Negation; logical equivalent of “not” - negative of value
-^ (Caret): Bitwise Exclusive(“xor” = “exclusive or”); logical equivalent of “else”- requires exactly one argument == result
+^ (Caret): Bitwise Exclusive(“xor” = “exclusive or”) - requires exactly one argument == result
 	example: 
 	i = 15 (01111)
 	j = 22 (10110)
