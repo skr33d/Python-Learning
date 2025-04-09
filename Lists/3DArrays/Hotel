@@ -1,0 +1,15 @@
+Available = True
+Occupied = False
+
+
+rooms = [[[Available for r in range(20)] for f in range(15)] for b in range(3)]
+
+rooms[0][12][15] = Occupied
+
+Vacancies = sum(
+    1 for b in rooms
+    for f in b
+        for r in f
+            if r == Available)
+
+print(Vacancies)
