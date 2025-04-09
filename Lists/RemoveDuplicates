@@ -1,0 +1,11 @@
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+#
+# Write your code here.
+#
+uniques = []
+for i in my_list:
+    if i not in uniques:
+        uniques.append(i)
+my_list = uniques
+print("The list with unique elements only:")
+print(my_list)
