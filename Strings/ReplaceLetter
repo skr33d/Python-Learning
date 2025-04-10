@@ -5,3 +5,16 @@ def mutate_string(string, position, character):
     y = int(i)
     return s[:y] + c + s[(1 + y):]
 print(mutate_string(s, i, c))
+
+Alternative Approach
+
+s = input()
+i, c = input().split()
+
+def mutate_string(string, position, character):
+    position = int(i)
+    string = list(s)
+    string[position] = c       
+    return ''.join(string)
+    
+print(mutate_string(s, i, c))
