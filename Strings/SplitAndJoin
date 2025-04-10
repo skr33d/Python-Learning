@@ -1,4 +1,4 @@
-line = input()
+line = input("Enter spaced words to join with '-':")
 
 def split_and_join(line):
     # write your code here
