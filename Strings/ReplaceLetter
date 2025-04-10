@@ -1,0 +1,7 @@
+s = input()
+i, c = input().split()
+
+def mutate_string(string, position, character):
+    y = int(i)
+    return s[:y] + c + s[(1 + y):]
+print(mutate_string(s, i, c))
