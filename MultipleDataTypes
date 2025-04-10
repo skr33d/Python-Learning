@@ -1,0 +1,22 @@
+i = 4
+d = 4.0
+s = 'Hello '
+# Declare second integer, double, and String variables.
+a = int(input())
+b = float(input())
+c = str(input())
+
+# Read and save an integer, double, and String to your variables.
+x = i + a
+y = d + b
+z = s + c
+
+
+# Print the sum of both integer variables on a new line.
+print(x, end="\n")
+
+# Print the sum of the double variables on a new line.
+print(y, end="\n")
+
+# Concatenate and print the String variables on a new line
+print(z, end="\n")
