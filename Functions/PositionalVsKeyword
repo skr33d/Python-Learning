@@ -1,16 +1,54 @@
+# Passing Arguments
 # Positional Arguments will always be prioritized ahead of Keyword Arguments
 
 # Positional
 def introduction(first_name, last_name):
     print("Hello, my name is", first_name, last_name)
 
-
 introduction("Henry", "Smith")
 
-#Keyword
+### Keyword
 def introduction(first_name="Henry", last_name="Smith"):
     print("Hello, my name is", first_name, last_name)
 
-
 introduction()
 
+### Positional Argument Passing
+def subtra(a, b):
+    print(a - b)
+
+subtra(5, 2)    # outputs: 3
+subtra(2, 5)    # outputs: -3
+
+
+### Keyword Argument Passing
+def subtra(a, b):
+    print(a - b)
+
+subtra(a=5, b=2)    # outputs: 3
+subtra(b=2, a=5)    # outputs: 3
+
+### Mix
+def subtra(a, b):
+    print(a - b)
+
+subtra(5, b=2)    # outputs: 3
+subtra(5, 2)    # outputs: 3
+
+###
+def intro(a="James Bond", b="Bond"):
+    print("My name is", b + ".", a + ".")
+
+intro()    # outputs: My name is Bond. James Bond.
+
+###
+def intro(a="James Bond", b="Bond"):
+    print("My name is", b + ".", a + ".")
+
+intro(b="Sean Connery")    # outputs: My name is Sean Connery. James Bond.
+
+###
+def intro(a, b="Bond"):
+    print("My name is", b + ".", a + ".")
+
+intro("Susan")    # outputs: My name is Bond. Susan.
