@@ -1,0 +1,11 @@
+def is_prime(num):
+
+    if num < 2:
+        return "Prime Numbers must have positive divisors!"
+    for i in range(2, num):
+        if num % i == 0:
+            return "Not Prime"
+    return "Is Prime"
+
+print(is_prime(13))
+        
